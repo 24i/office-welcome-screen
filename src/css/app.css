@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.container {
+    background: url(../assets/img/backgrounds/coffee.jpg);
+    background-size: cover;
+    width: 1650px;
+    height: 960px;
+    padding: 60px 150px;
+}
+
+.inner-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+.clock {
+    float: right;
+    font-size: 2em;
+    font-weight: 200;
+    text-align: right;
+}
+
+.title {
+    display: block;
+    clear: both;
+    padding-top: 1em;
+    font-size: 4em;
+}
+
+.client {
+    margin-top: 175px;
+}
+
+.client .name {
+    display: block;
+    font-size: 4em;
+}
+.client .location {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 0px;
+    font-size: 3em;
+}
+
+.agenda {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 2em;
+}
+
+.agenda h2 {
+    text-align: right;
+}
+
+.agenda table {
+    width: 400px;
+    font-weight: 200;
+}
+
+.agenda tr td:first-child {
+    width: 25%;
+}
+.agenda tr td:last-child {
+    width: 75%;
+    text-align: right;
+}
